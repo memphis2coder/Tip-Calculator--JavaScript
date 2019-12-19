@@ -1,0 +1,31 @@
+body {
+  background-color: lightblue;
+  height: 100vh;
+}
+
+.app {
+  margin-top: 200px;
+  padding: 2rem;
+  background-color: lightsteelblue;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+/* desktop screen size */
+@media (min-width: 700px) {
+  .app {
+    width: 60%;
+    margin: 200px auto;
+  }
+}
+input {
+  text-align: center;
+}
+
+hr {
+  background-color: white;
+  padding: 1.2px;
+}
